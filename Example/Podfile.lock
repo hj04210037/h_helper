@@ -4,7 +4,11 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - hl (0.1.1)
+  - hl (0.1.1):
+    - hl/DWQLogisticsInformation (= 0.1.1)
+  - hl/DWQLogisticsInformation (0.1.1):
+    - Masonry
+  - Masonry (1.1.0)
 
 DEPENDENCIES:
   - FBSnapshotTestCase
@@ -13,6 +17,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
+    - Masonry
 
 EXTERNAL SOURCES:
   hl:
@@ -20,7 +25,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  hl: 089a5af5ad8f5999efdff77df0064a354412ef81
+  hl: 28cd42231f0a49fa43bf667d01af1dc7383fdd5d
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
 PODFILE CHECKSUM: 07a40b9059d0b118f167f16972268e548265c0a0
 

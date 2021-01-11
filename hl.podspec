@@ -30,7 +30,11 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'hl/Classes/**/*'
+  s.source_files = 'hl/Classes/*'
+  s.subspec 'DWQLogisticsInformation' do |ss|
+      ss.source_files = 'hl/Classes/DWQLogisticsInformation/*'
+      ss.dependency 'Masonry'
+  end
   
   # s.resource_bundles = {
   #   'hl' => ['hl/Assets/*.png']

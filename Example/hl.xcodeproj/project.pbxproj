@@ -10,6 +10,11 @@
 		06FEFBFA25ABF63200622B7A /* ConstantHelper_shi.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFBF925ABF63200622B7A /* ConstantHelper_shi.m */; };
 		06FEFC1025ABF79A00622B7A /* DataCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC0E25ABF79A00622B7A /* DataCheck.m */; };
 		06FEFC1B25ABF7D100622B7A /* GQHConstantHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC1A25ABF7D100622B7A /* GQHConstantHelper.m */; };
+		06FEFC5025ABF8FC00622B7A /* DWQLogisticsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC4725ABF8FC00622B7A /* DWQLogisticsView.m */; };
+		06FEFC5125ABF8FC00622B7A /* DWQTableCellContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC4B25ABF8FC00622B7A /* DWQTableCellContentView.m */; };
+		06FEFC5225ABF8FC00622B7A /* DWQLogisticModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC4C25ABF8FC00622B7A /* DWQLogisticModel.m */; };
+		06FEFC5325ABF8FC00622B7A /* DWQLogisticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC4E25ABF8FC00622B7A /* DWQLogisticCell.m */; };
+		06FEFC5425ABF8FC00622B7A /* DWQTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC4F25ABF8FC00622B7A /* DWQTableHeaderView.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -46,6 +51,17 @@
 		06FEFC0F25ABF79A00622B7A /* DataCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCheck.h; sourceTree = "<group>"; };
 		06FEFC1925ABF7D100622B7A /* GQHConstantHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQHConstantHelper.h; sourceTree = "<group>"; };
 		06FEFC1A25ABF7D100622B7A /* GQHConstantHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQHConstantHelper.m; sourceTree = "<group>"; };
+		06FEFC4525ABF8FC00622B7A /* DWQTableCellContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQTableCellContentView.h; sourceTree = "<group>"; };
+		06FEFC4625ABF8FC00622B7A /* DWQLogisticModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQLogisticModel.h; sourceTree = "<group>"; };
+		06FEFC4725ABF8FC00622B7A /* DWQLogisticsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQLogisticsView.m; sourceTree = "<group>"; };
+		06FEFC4825ABF8FC00622B7A /* DWQTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQTableHeaderView.h; sourceTree = "<group>"; };
+		06FEFC4925ABF8FC00622B7A /* DWQLogisticCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQLogisticCell.h; sourceTree = "<group>"; };
+		06FEFC4A25ABF8FC00622B7A /* DWQConfigFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQConfigFile.h; sourceTree = "<group>"; };
+		06FEFC4B25ABF8FC00622B7A /* DWQTableCellContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQTableCellContentView.m; sourceTree = "<group>"; };
+		06FEFC4C25ABF8FC00622B7A /* DWQLogisticModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQLogisticModel.m; sourceTree = "<group>"; };
+		06FEFC4D25ABF8FC00622B7A /* DWQLogisticsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWQLogisticsView.h; sourceTree = "<group>"; };
+		06FEFC4E25ABF8FC00622B7A /* DWQLogisticCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQLogisticCell.m; sourceTree = "<group>"; };
+		06FEFC4F25ABF8FC00622B7A /* DWQTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWQTableHeaderView.m; sourceTree = "<group>"; };
 		14729C3F43440486B71C30E2 /* Pods_hl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE449FC726A146BA89A188F /* Pods_hl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3FAA2A12BD7311B4BBEC13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -107,6 +123,7 @@
 		06FEFBE425ABF5CE00622B7A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				06FEFC4425ABF8FC00622B7A /* DWQLogisticsInformation */,
 				06FEFC1925ABF7D100622B7A /* GQHConstantHelper.h */,
 				06FEFC1A25ABF7D100622B7A /* GQHConstantHelper.m */,
 				06FEFC0F25ABF79A00622B7A /* DataCheck.h */,
@@ -124,6 +141,24 @@
 			);
 			name = Assets;
 			path = ../../hl/Assets;
+			sourceTree = "<group>";
+		};
+		06FEFC4425ABF8FC00622B7A /* DWQLogisticsInformation */ = {
+			isa = PBXGroup;
+			children = (
+				06FEFC4525ABF8FC00622B7A /* DWQTableCellContentView.h */,
+				06FEFC4625ABF8FC00622B7A /* DWQLogisticModel.h */,
+				06FEFC4725ABF8FC00622B7A /* DWQLogisticsView.m */,
+				06FEFC4825ABF8FC00622B7A /* DWQTableHeaderView.h */,
+				06FEFC4925ABF8FC00622B7A /* DWQLogisticCell.h */,
+				06FEFC4A25ABF8FC00622B7A /* DWQConfigFile.h */,
+				06FEFC4B25ABF8FC00622B7A /* DWQTableCellContentView.m */,
+				06FEFC4C25ABF8FC00622B7A /* DWQLogisticModel.m */,
+				06FEFC4D25ABF8FC00622B7A /* DWQLogisticsView.h */,
+				06FEFC4E25ABF8FC00622B7A /* DWQLogisticCell.m */,
+				06FEFC4F25ABF8FC00622B7A /* DWQTableHeaderView.m */,
+			);
+			path = DWQLogisticsInformation;
 			sourceTree = "<group>";
 		};
 		1E329578B2481839C503C763 /* Pods */ = {
@@ -376,10 +411,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-hl_Example/Pods-hl_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/hl/hl.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hl.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,9 +455,14 @@
 			files = (
 				06FEFC1025ABF79A00622B7A /* DataCheck.m in Sources */,
 				06FEFBFA25ABF63200622B7A /* ConstantHelper_shi.m in Sources */,
+				06FEFC5225ABF8FC00622B7A /* DWQLogisticModel.m in Sources */,
+				06FEFC5425ABF8FC00622B7A /* DWQTableHeaderView.m in Sources */,
 				06FEFC1B25ABF7D100622B7A /* GQHConstantHelper.m in Sources */,
+				06FEFC5325ABF8FC00622B7A /* DWQLogisticCell.m in Sources */,
+				06FEFC5025ABF8FC00622B7A /* DWQLogisticsView.m in Sources */,
 				6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HJViewController.m in Sources */,
+				06FEFC5125ABF8FC00622B7A /* DWQTableCellContentView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,6 +11,8 @@
 #endif
 
 #import "ConstantHelper_shi.h"
+#import "DataCheck.h"
+#import "GQHConstantHelper.h"
 
 FOUNDATION_EXPORT double hlVersionNumber;
 FOUNDATION_EXPORT const unsigned char hlVersionString[];

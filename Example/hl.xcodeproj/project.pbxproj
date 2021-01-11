@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		06FEFBFA25ABF63200622B7A /* ConstantHelper_shi.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFBF925ABF63200622B7A /* ConstantHelper_shi.m */; };
+		06FEFC1025ABF79A00622B7A /* DataCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC0E25ABF79A00622B7A /* DataCheck.m */; };
+		06FEFC1B25ABF7D100622B7A /* GQHConstantHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 06FEFC1A25ABF7D100622B7A /* GQHConstantHelper.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,6 +42,10 @@
 /* Begin PBXFileReference section */
 		06FEFBF825ABF63200622B7A /* ConstantHelper_shi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConstantHelper_shi.h; sourceTree = "<group>"; };
 		06FEFBF925ABF63200622B7A /* ConstantHelper_shi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConstantHelper_shi.m; sourceTree = "<group>"; };
+		06FEFC0E25ABF79A00622B7A /* DataCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataCheck.m; sourceTree = "<group>"; };
+		06FEFC0F25ABF79A00622B7A /* DataCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataCheck.h; sourceTree = "<group>"; };
+		06FEFC1925ABF7D100622B7A /* GQHConstantHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQHConstantHelper.h; sourceTree = "<group>"; };
+		06FEFC1A25ABF7D100622B7A /* GQHConstantHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GQHConstantHelper.m; sourceTree = "<group>"; };
 		14729C3F43440486B71C30E2 /* Pods_hl_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hl_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EE449FC726A146BA89A188F /* Pods_hl_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hl_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3FAA2A12BD7311B4BBEC13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -101,6 +107,10 @@
 		06FEFBE425ABF5CE00622B7A /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				06FEFC1925ABF7D100622B7A /* GQHConstantHelper.h */,
+				06FEFC1A25ABF7D100622B7A /* GQHConstantHelper.m */,
+				06FEFC0F25ABF79A00622B7A /* DataCheck.h */,
+				06FEFC0E25ABF79A00622B7A /* DataCheck.m */,
 				06FEFBF825ABF63200622B7A /* ConstantHelper_shi.h */,
 				06FEFBF925ABF63200622B7A /* ConstantHelper_shi.m */,
 			);
@@ -406,7 +416,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				06FEFC1025ABF79A00622B7A /* DataCheck.m in Sources */,
 				06FEFBFA25ABF63200622B7A /* ConstantHelper_shi.m in Sources */,
+				06FEFC1B25ABF7D100622B7A /* GQHConstantHelper.m in Sources */,
 				6003F59E195388D20070C39A /* HJAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HJViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
